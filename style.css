@@ -1,0 +1,296 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: rgb(105, 140, 105);
+    float: left;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    margin-bottom: 15px;
+}
+header span{
+    float: left;
+    line-height: 60px;
+    padding-top: 5px;
+    margin-left: 40px;
+    color: white;
+    border-right: 1px solid rgb(190, 181, 181);
+    padding-right: 70px;
+   
+   
+}
+header h2{
+    float: left;
+    text-align: center;
+    margin-left: 200px;
+    padding-top: -5px;
+    color: white;
+    font-weight: 400;
+
+
+}
+header>a{
+    border-left: 1px solid rgb(190, 181, 181);
+    line-height: 40px;
+}
+header>a+a{
+    border-left: 0px;
+}
+header a{
+    text-decoration: none;
+    color: white;
+    padding-left: 50px;
+    margin-bottom: 2px;
+}
+.twitter{
+    float: left;
+    text-align: right;
+    margin-left: 200px;
+    padding-top: 25px;
+}
+.fb{
+    float: left;
+    margin-left: 50px;
+    padding-top: 25px;
+}
+.p{
+    float: left;
+    margin-left: 50px;
+    padding-top: 25px;
+}
+nav{
+    border-bottom: 1px solid rgb(198, 182, 182);
+    text-align: center;
+    padding-bottom: 15px;
+
+
+}
+nav a{
+    color: black;
+    text-decoration: none;
+    padding-right: 40px;
+    font-weight: 700;
+
+}
+nav>a{
+    text-decoration: underline 5px rgb(105, 140, 105);
+
+}
+nav>a+a{
+    text-decoration: none;
+}
+
+section h1{
+    text-align: center;
+    font-size: 100px;
+}
+.hello img{
+    float: left;
+    display: block;
+    margin: 0 auto;
+    height: 100%;
+    width: 33.3333%;
+    margin-bottom: 50px;
+}
+.top{
+    clear: both;
+}
+.top>section{
+    float: left;
+    width: 25%;
+    height: 50%;
+
+}
+.top>section img{
+    width: 100%;
+    height: 260px;;
+    object-fit: cover;
+}
+.top>section h4{
+    line-height: 1.2;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+.bottom{
+    clear: both;
+}
+.bottom>section{
+    float: left;
+    width: 25%;
+    height: 50%;
+    padding-right: 10px;
+}
+.bottom > section img{
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+}
+.bottom>section h4{
+    line-height: 1.2;
+    margin-bottom: 50px;
+}
+footer{
+    background-color: rgb(50, 45, 45);
+    color: rgb(196, 182, 182);
+    clear: both;
+    text-align: center;
+    height: 100%;
+    padding: 10px;
+}
+footer a{
+    color: rgb(167, 160, 160);
+    text-decoration: none;
+    padding-right: 20px;
+}
+footer p{
+    color: rgb(167, 160, 160);
+}
+
+/*for tablets*/
+@media (max-width: 1024px) {
+
+
+  header { 
+    padding: 12px 14px; 
+}
+  header span { 
+    float:none; 
+    display:inline-block; 
+    line-height:1.4; 
+    padding:0 14px; 
+    margin:0 0 8px; 
+    border-right:0; 
+}
+  header h2   { 
+    float:none; 
+    display:block; 
+    text-align:center; 
+    margin:6px 0 8px; 
+}
+  header a    { 
+    float:none; 
+    display:inline-block; 
+    padding:0 10px; 
+    margin:6px 0 0; 
+    border-left:0; 
+}
+  .twitter, .fb, .p { 
+    margin:0; 
+    padding-top:0; 
+}
+
+ 
+  nav { 
+    padding:10px 8px; 
+}
+  nav a { 
+    display:inline-block; 
+    padding:6px 10px; 
+}
+
+  section h1 { 
+    
+    font-size: 56px; 
+    
+    line-height: 1.05; 
+    
+    padding: 0 8px; 
+
+}
+  .hello img { 
+    
+    width: 33.333%; 
+    
+    height: auto; 
+
+}
+
+  .top > section, .bottom > section { 
+    
+    width: 50%; 
+
+}
+  .top > section img, .bottom > section img { 
+    
+    height: auto; 
+
+}
+
+  footer { 
+    padding: 14px 10px; 
+}
+}
+
+/*Small phones*/
+@media (max-width: 767.98px) {
+
+  html, body { 
+    overflow-x: hidden; 
+}
+
+  
+  header { 
+    text-align: center; 
+}
+  header span, header h2, header a { 
+    float:none; 
+    display:block; 
+}
+  header span { 
+    margin-bottom: 6px; 
+}
+  header span+h2+a { 
+
+    display:inline-block; 
+    margin-left: 100px;
+    
+}
+
+  nav { 
+    padding: 8px 6px; 
+}
+  nav a { 
+    float: none;
+    width: 100%;
+    padding: 6px 8px; font-weight: 700; 
+}
+
+ /*reduce headline*/
+  section h1 { 
+    font-size: 34px; 
+    line-height: 1.1; 
+    padding: 0 8px; 
+}
+
+
+  .hello img { 
+    float:none; 
+    width: 100%; 
+    height: auto; 
+    display:block; 
+}
+
+  .top > section, .bottom > section { 
+    float:none; 
+    width: 100%; 
+}
+  .top > section img, .bottom > section img { 
+    height: auto; 
+}
+  .top > section h4, .bottom > section h4 { 
+    margin-bottom: 20px; 
+}
+
+  footer p { 
+    margin: 10px 0; 
+}
+  footer a { 
+    display: inline-block; 
+    padding: 4px 8px; 
+}
+}
