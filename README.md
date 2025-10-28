@@ -1,5 +1,7 @@
 This project involved recreating a simplified version of The Huffington Post homepage using HTML and CSS. The goal was to practice building a realistic, content-rich webpage that mirrors a professional news website layout. The project required making the design responsive for different screen sizes using media queries.
 
+Find the live demo at https://ishelvirakeira.github.io/HuffPost-newspaper-replica/
+
 <img width="405" height="397" alt="Huffpost" src="https://github.com/user-attachments/assets/a374ed0f-4a12-4987-9024-61b2e35ca0ab" />
 
 
